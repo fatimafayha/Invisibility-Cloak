@@ -2,15 +2,6 @@ import cv2
 import numpy as np
 import time
 
-print("""
-
- Hey !! Would you like to try our invisibility cloak ??
-
-         Its awesome !!
-
-        
-         Prepare to get invisible .....................
- """)
 
 
 cap = cv2.VideoCapture(0)
