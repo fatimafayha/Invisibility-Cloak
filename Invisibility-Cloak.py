@@ -24,7 +24,7 @@ background = np.flip(background,axis=1)
 while(cap.isOpened()):
 	ret, img = cap.read()
 	
-	# Flipping the image (Can be uncommented if needed)
+	# Flipping the image 
 	img = np.flip(img,axis=1)
 	
 	# Converting image to HSV color space.
